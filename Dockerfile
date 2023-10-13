@@ -8,7 +8,7 @@ COPY . .
  
 RUN mvn clean install
 
-FROM amazoncorretto:17.0.8-al2023-headful
+FROM openjdk:17-jdk-slim
 
 EXPOSE 8080
 
